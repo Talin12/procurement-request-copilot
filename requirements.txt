@@ -1,0 +1,15 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pydantic>=2.9,<3
+pandas>=2.2,<3
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+streamlit>=1.40,<2
+httpx>=0.27,<1
+
+# Hosted reasoner. Optional at runtime: with no ANTHROPIC_API_KEY the copilot
+# falls back to the offline deterministic reasoner and still runs end to end.
+anthropic>=0.40,<1
+
+# Test runner for `python -m pytest tests/`.
+pytest>=8.0,<9

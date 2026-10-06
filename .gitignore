@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.pytest_cache/
+
+# Output of the starter harness. The reproducible results this submission
+# reports live in evals/results/ and ARE committed.
+evals/results_single.csv
+evals/results_staged.csv

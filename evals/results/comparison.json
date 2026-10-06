@@ -1,0 +1,73 @@
+{
+  "single_as_drawn": {
+    "suites": {
+      "public": {
+        "passed": 6,
+        "total": 6
+      },
+      "behavioural": {
+        "passed": 10,
+        "total": 10
+      },
+      "adversarial": {
+        "passed": 6,
+        "total": 6
+      }
+    },
+    "passed_total": 22,
+    "cases_total": 22,
+    "latency_ms_mean": 1.5,
+    "latency_ms_p95": 1.97,
+    "reasoner_calls_mean": 5.0,
+    "tool_calls_mean": 8.0,
+    "evidence_items_mean": 9.27
+  },
+  "single": {
+    "suites": {
+      "public": {
+        "passed": 6,
+        "total": 6
+      },
+      "behavioural": {
+        "passed": 10,
+        "total": 10
+      },
+      "adversarial": {
+        "passed": 6,
+        "total": 6
+      }
+    },
+    "passed_total": 22,
+    "cases_total": 22,
+    "latency_ms_mean": 1.37,
+    "latency_ms_p95": 1.64,
+    "reasoner_calls_mean": 4.0,
+    "tool_calls_mean": 7.0,
+    "evidence_items_mean": 9.27
+  },
+  "staged": {
+    "suites": {
+      "public": {
+        "passed": 6,
+        "total": 6
+      },
+      "behavioural": {
+        "passed": 10,
+        "total": 10
+      },
+      "adversarial": {
+        "passed": 6,
+        "total": 6
+      }
+    },
+    "passed_total": 22,
+    "cases_total": 22,
+    "latency_ms_mean": 1.69,
+    "latency_ms_p95": 2.01,
+    "reasoner_calls_mean": 4.0,
+    "tool_calls_mean": 7.0,
+    "evidence_items_mean": 9.27
+  },
+  "reasoner": "offline (local deterministic reasoner)",
+  "transport": "asgi"
+}
