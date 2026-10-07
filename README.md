@@ -158,6 +158,18 @@ Full reasoning: **[docs/architecture_decision.md](docs/architecture_decision.md)
 
 ---
 
+## Assumptions
+
+1. **Snapshot date, not today.** Staleness is measured against the date in `data/procurement_policy.md` (2026-09-30), parsed at runtime.
+2. **Overlap means same category.** A same-vendor product in a different category (e.g. training vs licences) is context, not duplication.
+3. **Privacy triggers on the request's declared data class**, not a vendor's general capability.
+4. **Overlap is never an automatic rejection** (policy section 3); a stated gap in the justification is a `credible_gap`.
+5. **A required review outranks "use what we already own."**
+6. **No stated cost means no approver list is invented.**
+7. **An absent record is unverified, never clean.** Missing registry entries and failed service calls both route to Security.
+
+Full list and failure matrix: [docs/architecture.md](docs/architecture.md).
+
 ## Known limitations
 
 - **Published numbers used the offline reasoner** (no API key at run time).
